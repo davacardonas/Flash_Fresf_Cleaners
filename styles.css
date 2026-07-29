@@ -560,3 +560,208 @@ footer{background:#081F35;padding:56px 0 26px;color:rgba(255,255,255,0.65);}
   .foot-grid{grid-template-columns:1fr;gap:32px;}
   .foot-bottom{flex-direction:column;text-align:center;}
 }
+
+
+
+
+/* =======================
+   LINKS PAGE
+======================= */
+
+.links-page{
+
+    background:linear-gradient(160deg,var(--navy),#081F35);
+
+}
+
+.links-hero{
+
+    min-height:100vh;
+    padding:60px 0;
+
+}
+
+.links-container{
+
+    max-width:700px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.links-copy{
+
+    width:100%;
+    text-align:center;
+
+}
+
+.links-copy .lead{
+
+    color:rgba(255,255,255,.82);
+    max-width:550px;
+    margin:20px auto 40px;
+
+}
+
+.links-buttons{
+
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+}
+
+.link-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:22px 24px;
+
+    display:grid;
+
+    grid-template-columns:65px 1fr auto;
+
+    align-items:center;
+
+    gap:18px;
+
+    text-decoration:none;
+
+    transition:.25s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.link-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:var(--shadow-strong);
+
+}
+
+.link-card>div:first-child{
+
+    width:60px;
+    height:60px;
+
+    border-radius:18px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:28px;
+
+}
+
+.link-card h3{
+
+    margin:0;
+
+    font-size:20px;
+
+}
+
+.link-card p{
+
+    margin-top:5px;
+
+    font-size:14px;
+
+}
+
+.link-card span{
+
+    color:#999;
+
+    font-size:18px;
+
+}
+
+.whatsapp>div:first-child{
+
+    background:#25D366;
+
+}
+
+.yelp>div:first-child{
+
+    background:#D32323;
+
+}
+
+.website>div:first-child{
+
+    background:var(--navy);
+
+}
+
+.phone>div:first-child{
+
+    background:var(--amber);
+
+}
+
+.email>div:first-child{
+
+    background:#6FD0F2;
+
+}
+
+.instagram>div:first-child{
+
+    background:#E1306C;
+
+}
+
+.facebook>div:first-child{
+
+    background:#1877F2;
+
+}
+
+.tiktok>div:first-child{
+
+    background:#111;
+
+}
+
+@media(max-width:650px){
+
+.link-card{
+
+grid-template-columns:55px 1fr;
+
+}
+
+.link-card span{
+
+display:none;
+
+}
+
+.link-card>div:first-child{
+
+width:50px;
+height:50px;
+font-size:22px;
+
+}
+
+.link-card h3{
+
+font-size:18px;
+
+}
+
+}
